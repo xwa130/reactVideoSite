@@ -16,7 +16,6 @@ class SearchBar extends Component {
     return (
       <div>
         <input autoFocus value={this.state.term} onChange={this.onChange} />
-        Value: {this.state.term}
       </div>
     );
   }

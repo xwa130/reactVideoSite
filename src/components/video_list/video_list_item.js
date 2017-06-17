@@ -7,17 +7,18 @@ class VideoListItem extends Component {
 
   render () {
     console.log('Rendering <VideoListItem />');
+    const video = this.props.video;
     return (
-      <li className='list-group-item'>
+      <li onClick={() => this.props.onVideoSelect(video)} className='list-group-item'>
         <div className='video-list media'>
           <div className='media-left'>
             <img className='media-object'
-                 src={this.props.video.snippet.thumbnails.default.url} />
+                 src={video.snippet.thumbnails.default.url} />
           </div>
 
           <div className='media-body'>
             <div className='media-heading'>
-              {this.props.video.snippet.title}
+              {video.snippet.title}
             </div>
           </div>
         </div>
