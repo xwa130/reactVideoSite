@@ -4,8 +4,8 @@ This small project is powered by react which fetches data through youtube api. U
 ### Getting Started
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
+> git clone git@github.com:xwa130/reactVideoSite.git
+> cd reactVideoSite
 > npm install
 > npm start
 ```
