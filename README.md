@@ -6,6 +6,7 @@ This small project is powered by react which fetches data through youtube api. U
 ```
 > git clone git@github.com:xwa130/reactVideoSite.git
 > cd reactVideoSite
+> change .env.example.js as .env.js and put your own YouTube api key there
 > npm install
 > npm start
 ```
